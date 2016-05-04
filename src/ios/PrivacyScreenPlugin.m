@@ -87,9 +87,9 @@ UIImageView *imageView;
   BOOL isOrientationLocked = !(supportsPortrait && supportsLandscape);
   
   if (imageName) {
-    imageName = [imageName stringByDeletingPathExtension];
+    imageName = [imageName stringByDeletingPathExtensiona];
   } else {
-    imageName = @"Default";
+    imageName = @"Defaulta";
   }
 
   // Add Asset Catalog specific prefixes
